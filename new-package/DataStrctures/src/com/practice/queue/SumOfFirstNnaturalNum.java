@@ -1,0 +1,25 @@
+
+// w a j p to display sum of n natural numbers
+
+package com.practice.queue;
+
+import java.util.Scanner;
+
+public class SumOfFirstNnaturalNum {
+
+	
+	private static int sumOfN(int n) {
+		if (n==1) {
+			return 1;
+		}
+		return (n=n+sumOfN(n-1));
+	}
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);
+		System.out.println("enter the number you want to calculate");
+		int n=s.nextInt();
+		int sum=sumOfN(n);
+		System.out.println("sum of  "+n+" natural number is:   "+sum);
+		s.close();
+	}
+}
