@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<bean id="diffCollections" class="collections.SubjectClass">
+		<property name="arrayList">
+				<list>
+						<value>siva</value>
+						<value>kumar</value>
+						<value>revuri</value>
+				</list>
+		</property>
+		<property name="setList">
+				<set>
+						<value>b.tech</value>
+						<value>intermediate</value>
+						<value>ssc</value>
+				</set>
+		</property>
+		<property name="mapList">
+				<map>
+						<entry key="1" value="68"></entry>
+						<entry key="2" value="96"></entry>
+						<entry key="3" value="93"></entry>
+				</map>
+		</property>
+	</bean>
+</beans>

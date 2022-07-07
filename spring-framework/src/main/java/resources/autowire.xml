@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Manual dependency injection -->
+	<!-- <bean id="car" class="autowire.Car"> <property name="engine" ref="engine1"></property> 
+		</bean> <bean id="engine1" class="autowire.Engine"> <property name="modelYear" 
+		value="2018"></property> </bean> -->
+
+	<!-- byType injection note: In case by chance there is a change to get a 
+		ambiguity -->
+	<!-- <bean id="car" class="autowire_xml.Car" autowire="byType"/> <bean id="e1" 
+		class="autowire_xml.Engine"> <property name="modelYear" value="2018"></property> 
+		</bean> <bean id="e2" class="autowire_xml.Engine" autowire-candidate="false"> 
+		<property name="modelYear" value="2019"></property> </bean> -->
+
+	<!-- byName injection it will check with both reference name & Type -->
+	<bean id="car" class="autowire_xml.Car" autowire="byName" />
+
+	<bean id="engine1" class="autowire_xml.Engine"
+		autowire-candidate="false">
+		<property name="modelYear" value="2018"></property>
+	</bean>
+	<bean id="engine" class="autowire_xml.Engine">
+		<property name="modelYear" value="2019"></property>
+	</bean>
+
+</beans>
