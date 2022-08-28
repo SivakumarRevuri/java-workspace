@@ -1,0 +1,22 @@
+
+JAVA-CORE Mandatory Certificate : Java 8 Certification Should be good in Java , J2EE, Should have working experience in Design patterns, Spring , Hibernate Good to have knowledge on Oracle, Pl SQL Should have experience working with onsite and offshore team. Need to have good oral, written communication. 
+	 1. Minimum Bachelors degree Minimum 6+ years experience in JavaJ2EE Tech stack Strong experience in Core Java, Spring, Hibernate Good knowledge in Design skills.
+	 2. Very Strong in terms of refactoring, best coding practices and code optimization. 
+	 3. Good Oracle or SQL skills. Ability to operate in a fast paced environment assimilating large amounts of information quickly. 
+	 4. Excellent analytical, interpersonal, and leadership skills.
+	 5. Excellent oral and written communication skills.
+	 6. Desire to take ownershxip and run the show end to end Comfortable working with remote teams.
+
+Habits to IMPROVE the programming skills:
+	1. practice algorithms and data structures
+	2. read others code
+	3. competitive programming
+	4. explore other language
+	5. build projects
+
+5 must skills:
+	1. Regular expressions
+	2. SQL ( to understand the database more)
+	3. Debugging Skills (art of problem solving).
+	4. Tooling languages (scripting for own tools)
+	5. Anti-Social skill (communication without being social).
